@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+h1:hover{
+    transform: scale(1.5);
+    transition: 2s linear;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+    border:1px solid blueviolet;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 2px 2px 2px 0px black;
+}
+a:hover{
+    box-shadow: 2px 2px 5px 0px orange;
+}
